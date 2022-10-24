@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+
+html{
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.films-item {
+    width: 550px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.child-item {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.child-text {
+    font-weight: 400;
+}
